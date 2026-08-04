@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mukesh K - Artificial Intelligence & Data Science student portfolio. Premium recruiter-friendly portfolio showcasing projects, certifications, internships, and contact details." />
+  <meta name="keywords" content="Mukesh K, AI, Data Science, Portfolio, React Native, Machine Learning, Web Development, Data Analytics" />
+  <meta name="author" content="MUKESH K" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="MUKESH K | Personal Portfolio" />
+  <meta property="og:description" content="A premium modern portfolio for AI, Data Science, Mobile Apps, and Web Development." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mukeshk18012006.github.io/" />
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>MUKESH K | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "MUKESH K",
+      "jobTitle": "Artificial Intelligence & Data Science Student",
+      "email": "mukesh4718012006@gmail.com",
+      "telephone": "6383955078",
+      "url": "https://mukeshk18012006.github.io/",
+      "sameAs": [
+        "https://github.com/MukeshK18012006",
+        "https://www.linkedin.com/in/mukesh-k-956423293"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <div class="background-orbs" aria-hidden="true">
+    <span></span><span></span><span></span><span></span>
+  </div>
+  <div class="particle-layer" id="particleLayer" aria-hidden="true"></div>
+
+    <div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-card glass">
+    <div class="loader-ring"></div>
+    <p>Mukesh K | Data Analyst</p>
+  </div>
+</div>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="topbar glass">
+    <a class="brand" href="#home" aria-label="MUKESH K home">
+      <span class="brand-mark">MK</span>
+      <span class="brand-text">
+        <strong>MUKESH K</strong>
+        <small>AI & Data Science</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span>◐</span>
+      </button>
+      <a class="pill-btn secondary" href="#projects">View Projects</a>
+      <button class="pill-btn primary" id="downloadResumeBtn" type="button">Download Resume</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Personal Portfolio</div>
+          <h1>MUKESH K</h1>
+          <p class="role">Artificial Intelligence & Data Science Student</p>
+          <p class="tagline">Transforming Data into Intelligence and Ideas into Innovation</p>
+          <p class="intro">
+            I am a B.Tech student specializing in Artificial Intelligence and Data Science at PPG Institute of Technology, Coimbatore. Passionate about AI, Data Analytics, Machine Learning, Mobile Applications, and Modern Web Technologies.
+          </p>
+
+          <div class="hero-actions">
+            <button class="pill-btn primary" id="downloadResumeHero" type="button">Download Resume</button>
+            <a class="pill-btn secondary" href="#projects">View Projects</a>
+            <a class="pill-btn ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="social-row" aria-label="Social links">
+            <a href="https://github.com/MukeshK18012006" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/mukesh-k-956423293" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:mukesh4718012006@gmail.com">Email</a>
+            <a href="tel:6383955078">Phone</a>
+          </div>
+
+          <div class="typing-line">
+            <span class="typing-label">Focus areas:</span>
+            <span id="typingText"></span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-glow" data-parallax="0.12"></div>
+          <div class="profile-card glass" data-tilt>
+    <img
+      src="profile.jpeg"
+      alt="Mukesh K"
+      class="profile-photo"
+    />
+</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Professional Profile</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="profile-summary glass reveal">
+          <h3>Profile Overview</h3>
+          <p>
+            I am a B.Tech student in Artificial Intelligence and Data Science at PPG Institute of Technology, Coimbatore, with a passion for data analysis and efficient algorithms. I actively pursue self-improvement and hands-on practice to enhance my skills and broaden my knowledge in the field.
+          </p>
+          <div class="stats-grid" id="statsGrid"></div>
+        </article>
+
+        <article class="education-highlights glass reveal">
+          <h3>Education Highlights</h3>
+          <h4>Anna University</h4>
+          <ul>
+            <li><strong>B.Tech AI & Data Science</strong><span>PPG Institute of Technology</span></li>
+            <li><strong>Affiliated to Anna University</strong><span>2023 - 2027</span></li>
+            <li><strong>Current CGPA</strong><span>7.47 (Up to 5th Semester)</span></li>
+          </ul>
+
+        </article>
+
+        <article class="skills-summary glass reveal">
+          <h3>Skills Summary</h3>
+          <div class="chip-cloud" id="skillsSummary"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Education</p>
+          <h2>Animated Timeline</h2>
+        </div>
+      </div>
+      <div class="timeline glass" id="timeline"></div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Skills</p>
+          <h2>Interactive Skill Categories</h2>
+        </div>
+      </div>
+      <div class="category-grid" id="skillCategories"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2>Selected Showcase</h2>
+        </div>
+      </div>
+
+      <div class="controls glass">
+        <div class="search-wrap">
+          <label class="sr-only" for="projectSearch">Search projects</label>
+          <input id="projectSearch" type="search" placeholder="Search projects, tech, or keywords..." />
+        </div>
+        <div class="filter-chips" id="projectFilters"></div>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Certifications</p>
+          <h2>Professional Learning</h2>
+        </div>
+      </div>
+      <div class="card-grid" id="certificationGrid"></div>
+    </section>
+
+    <section class="section" id="internships">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Internships</p>
+          <h2>Experience & Exposure</h2>
+        </div>
+      </div>
+      <div class="card-grid" id="internshipGrid"></div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Achievements</p>
+          <h2>Recognitions</h2>
+        </div>
+      </div>
+      <div class="achievement-grid" id="achievementGrid"></div>
+    </section>
+
+    <section class="section" id="languages">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Languages</p>
+          <h2>Communication</h2>
+        </div>
+      </div>
+      <div class="language-grid" id="languageGrid"></div>
+    </section>
+
+    <section class="section github-section" id="github">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">GitHub</p>
+          <h2>Developer Presence</h2>
+        </div>
+      </div>
+      <div class="github-grid">
+        <article class="github-panel glass reveal">
+          <div class="github-head">
+            <div>
+              <h3>Profile Snapshot</h3>
+              <p>@MukeshK18012006</p>
+            </div>
+            <a href="https://github.com/MukeshK18012006" target="_blank" rel="noreferrer" class="pill-btn secondary">Open GitHub</a>
+          </div>
+          <div class="github-stats" id="githubStats"></div>
+        </article>
+        <article class="github-panel glass reveal">
+          <h3>Recent Public Repos</h3>
+          <div class="repo-list" id="githubRepos"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s Connect</h2>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form glass reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="contactName">Name</label>
+            <input id="contactName" name="name" type="text" placeholder="Your name" required />
+            <small class="field-error" data-error-for="contactName"></small>
+          </div>
+          <div class="field">
+            <label for="contactEmail">Email</label>
+            <input id="contactEmail" name="email" type="email" placeholder="you@example.com" required />
+            <small class="field-error" data-error-for="contactEmail"></small>
+          </div>
+          <div class="field">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="6" placeholder="Tell me about your opportunity, project, or collaboration idea." required></textarea>
+            <small class="field-error" data-error-for="contactMessage"></small>
+          </div>
+          <button type="submit" class="pill-btn primary full">Send Message</button>
+        </form>
+
+        <aside class="contact-card glass reveal">
+          <h3>Direct Contact</h3>
+          <ul class="contact-list">
+            <li><span>Phone</span><a href="tel:6383955078">6383955078</a></li>
+            <li><span>Email</span><a href="mailto:mukesh4718012006@gmail.com">mukesh4718012006@gmail.com</a></li>
+            <li><span>GitHub</span><a href="https://github.com/MukeshK18012006" target="_blank" rel="noreferrer">MukeshK18012006</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/mukesh-k-956423293" target="_blank" rel="noreferrer">mukesh-k-956423293</a></li>
+          </ul>
+
+          <div class="location-card">
+            <p class="muted">Location</p>
+            <p>LIG-3995, Peelamedu, Gandhimaa Nagar, Coimbatore, Tamil Nadu-641004</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="location">
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">Location</p>
+          <h2>Interactive Map</h2>
+        </div>
+      </div>
+      <div class="location-grid">
+        <div class="map-shell glass reveal">
+          <div class="map-caption">
+            <p class="eyebrow">Exact Location</p>
+            <h3>LIG-3995, Peelamedu, Gandhimaa Nagar, Coimbatore, Tamil Nadu-641004</h3>
+          </div>
+          <iframe
+            title="Exact location on Google Maps"
+            src="https://www.google.com/maps?q=11.043636,76.999845&z=19&hl=en&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="map-actions glass reveal">
+          <p class="muted">Location</p>
+          <button class="pill-btn secondary full" id="openMapsBtn" type="button">Open in Google Maps</button>
+          <button class="pill-btn ghost full" id="copyAddressBtn" type="button">Copy Map Link</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>MUKESH K</strong>
+      <p>Artificial Intelligence & Data Science Student</p>
+    </div>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal glass" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close modal">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
